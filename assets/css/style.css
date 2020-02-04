@@ -1,0 +1,88 @@
+/* index.css */
+
+body {
+    width:960px;
+    margin:0 auto;
+    background-image: url('../images/dot-grid.png');
+    background-color:#ffffff;
+    background-repeat: repeat;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 60px;
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration:none;
+    color:#777777;
+    padding: 10px;
+}
+
+
+.name {
+    background-color: #4aaaa5;
+    float:left;
+    padding: 20px;
+}
+.name a {
+    color:#ffffff;
+    font-size: 28px;
+}
+
+.links {
+    float:right;
+    padding:20px;
+    color:#777777;
+    margin-left: 40%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom:1px solid #CCC;
+    width:100%;
+    float:left;
+    padding-bottom:10px;
+    
+}
+
+
+p  {
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.main {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 10px 35px;
+}
+
+.profile-img {
+    width: 150px;
+    float: left;
+    margin-right:20px;
+}
+
+footer {
+    background-color:#333333;
+    color:#FFFFFF;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid #4aaaa5;
+}
