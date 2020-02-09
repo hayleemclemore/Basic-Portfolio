@@ -6,11 +6,19 @@ h1, h2, h3 {
 
 h1 {
     color: #4aaaa5;
-    border-bottom:1px solid #CCC;
-    width:100%;
     float:left;
+    width: 920px;
     padding-bottom:10px;
+    padding-left: 20px;
     
+    
+}
+.decoration {
+    width: 920px;
+    display: block;
+    height: 3px;
+    background: #cccccc;
+    margin: 60px auto 20px auto;
 }
 
 p, a {
@@ -20,13 +28,21 @@ p, a {
     font-size: 16px;  
 }
 
+.bio {
+    margin-left:20px;
+    margin-right: 20px;
+    line-height: 1.5em;
+}
+
+html, body {
+    height:100%;
+}
 
 body {
-    width:960px;
-    margin:0 auto;
     background-image: url('../images/dot-grid.png');
     background-color:#ffffff;
     background-repeat: repeat;
+    margin:0;
 }
 
 
@@ -34,9 +50,14 @@ body {
     background-color: #ffffff;
     border: 1px solid #cccccc;
     margin-bottom: 60px;
-    max-width: 960px;
+    width: 100%;
     display: flex;
     align-items: center;
+
+}
+.container {
+    width:960px;
+    margin: 0 auto;
 }
 
 a {
@@ -72,25 +93,29 @@ ul {
 .main {
     background-color: #ffffff;
     border: 1px solid #dddddd;
-    padding: 10px 35px;
+    padding: 10px 0;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 72px;
 }
 
 .profile-img {
     width: 150px;
     float: left;
     margin-right:20px;
+    margin-left: 20px;
 }
 
 footer {
-    background-color:#333333;
+    background-color:#666666;
     color:#FFFFFF;
     padding: 10px;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 0;
     left: 0;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
 }
 
 
@@ -98,6 +123,10 @@ footer {
 /* contact.css */
 .contact__form {
     padding: 10px 10px 0 0;
+}
+
+.wrapper {
+    margin: 0 20px;
 }
 
 input, textarea {
@@ -116,3 +145,50 @@ input[type="submit"] {
     border:none;
 }
 
+.contact__form-textarea {
+    height: 150px;
+}
+
+
+/* portolio.css */
+.image-grid {
+    margin-top:80px;
+}
+
+
+ul li img {
+    width:200px;
+    height: 200px;
+
+}
+
+ul {
+    padding-left: 0px;
+    width: 75%;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+li {
+    flex: 1;
+
+}
+
+ .title { 
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+ }
+
+ .heading {
+     position: relative;
+     top:-70px;
+     background-color: #4aaaa5;
+     width: 200px;
+     padding:10px 0;
+     text-align: center;
+     color:white;
+
+ }
