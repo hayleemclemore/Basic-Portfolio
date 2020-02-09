@@ -1,7 +1,7 @@
 /* index.css */
 
-h1, h2, h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 
 h1 {
@@ -26,6 +26,10 @@ p, a {
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;  
+}
+
+.logo {
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 
 .bio {
@@ -82,6 +86,7 @@ a {
     padding:20px;
     color:#777777;
     margin-left: 40%;
+    margin-top: 8px;
 }
 
 ul {
@@ -116,6 +121,10 @@ footer {
     left: 0;
     border-top: 8px solid #4aaaa5;
     width: 100%;
+}
+
+.copyright {
+    color:#ffffff;
 }
 
 
@@ -153,18 +162,19 @@ input[type="submit"] {
 /* portolio.css */
 .image-grid {
     margin-top:80px;
+    margin: 0 20px;
 }
 
 
 ul li img {
-    width:200px;
-    height: 200px;
+    width:275px;
+    height: 235px;
 
 }
 
 ul {
     padding-left: 0px;
-    width: 75%;
+    width: 65%;
     display: flex;
     flex-wrap:wrap;
     
@@ -184,11 +194,13 @@ li {
 
  .heading {
      position: relative;
-     top:-70px;
+     top:-50px;
      background-color: #4aaaa5;
-     width: 200px;
+     width: 275px;
      padding:10px 0;
      text-align: center;
      color:white;
+     font-weight: 400;
+     margin: 0;
 
  }
